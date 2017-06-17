@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="118dp"
+        android:layout_height="80dp"
+        android:src="@drawable/manager" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/imageView"
+        android:text="Deepak Rattan"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtName"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/imageView"
+        android:text="Vill-Lachkani,PO-Lang,Distt-Patiala"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtMobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="40dp"
+        android:text="Mobile "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtMobileNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/address"
+        android:layout_marginTop="45dp"
+        android:layout_toRightOf="@id/txtMobile"
+        android:text=" 9781345616"
+        android:textSize="18sp"
+        android:layout_alignBottom="@+id/txtEmail"
+        android:layout_alignRight="@+id/txtName"
+        android:layout_alignEnd="@+id/txtName" />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtMobile"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="5dp"
+        android:text="Email"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" deepak.rattan@sebiz.in"
+        android:textSize="18sp"
+        android:layout_alignTop="@+id/txtEmail"
+        android:layout_alignLeft="@+id/address"
+        android:layout_alignStart="@+id/address" />
+
+    <TextView
+        android:id="@+id/txtLoction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtEmail"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="5dp"
+        android:text="Location "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtLocationName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtEmail"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/txtLoction"
+        android:text="Sebiz Infotech Ltd,Mohali"
+        android:textSize="18sp" />
+
+</RelativeLayout>

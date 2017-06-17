@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/wpp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="118dp"
+        android:layout_height="80dp"
+        android:src="@drawable/manager" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/imageView"
+        android:text="Deepak "
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/lstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#ffff"
+        android:layout_toRightOf="@id/txtName"
+        android:text=" Rattan"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/designation"
+        android:textColor="#ffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtName"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/imageView"
+        android:text="Project Manager"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/txtaddress"
+        android:textColor="#ffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/designation"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="7sp"
+        android:layout_marginTop="40dp"
+        android:text="Address "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:textColor="#ffff"
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtMobile"
+        android:layout_alignStart="@+id/txtMobile"
+        android:layout_below="@+id/txtMobile"
+        android:layout_marginBottom="5dp"
+        android:text="Email"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:textColor="#ffff"
+        android:id="@+id/txtLoction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtEmail"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="7sp"
+        android:layout_marginTop="5dp"
+
+        android:text="DateOfBirth"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:textColor="#ffff"
+        android:id="@+id/member"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtLoction"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="7sp"
+        android:layout_marginTop="5dp"
+
+        android:text="Member Id "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:textColor="#ffff"
+        android:id="@+id/member_Id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="30"
+        android:textSize="18sp"
+        android:layout_alignBottom="@+id/member"
+        android:layout_alignLeft="@+id/txtdateOfBirth"
+        android:layout_alignStart="@+id/txtdateOfBirth"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp" />
+    <TextView
+        android:textColor="#ffff"
+        android:id="@+id/ftname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/member"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="7sp"
+        android:layout_marginTop="5dp"
+
+        android:text="Father Name "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:textColor="#ffff"
+        android:id="@+id/mtname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ftname"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="7sp"
+        android:layout_marginTop="5dp"
+
+        android:text="Mother Name "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:textColor="#ffff"
+        android:id="@+id/gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mtname"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="7sp"
+        android:layout_marginTop="5dp"
+
+        android:text="Gender "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:textColor="#ffff"
+        android:id="@+id/fathern"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="abc"
+        android:textSize="18sp"
+        android:layout_alignBottom="@+id/ftname"
+        android:layout_alignLeft="@+id/member_Id"
+        android:layout_alignStart="@+id/member_Id" />
+
+    <TextView
+        android:textColor="#ffff"
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vill-Lachkani PO-Lang Distt-Patiala"
+        android:textSize="18sp"
+        android:layout_alignTop="@+id/txtaddress"
+        android:layout_toRightOf="@+id/member"
+        android:layout_toEndOf="@+id/member" />
+
+    <TextView
+        android:textColor="#ffff"
+        android:id="@+id/txtMobileNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text=" 9781345616"
+        android:textSize="18sp"
+        android:layout_alignTop="@+id/txtMobile"
+        android:layout_alignLeft="@+id/address"
+        android:layout_alignStart="@+id/address" />
+
+    <TextView
+        android:textColor="#ffff"
+        android:id="@+id/txtEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" deepak.rattan@sebiz.in"
+        android:textSize="18sp"
+        android:layout_alignBottom="@+id/txtEmail"
+        android:layout_alignLeft="@+id/txtMobileNumber"
+        android:layout_alignStart="@+id/txtMobileNumber" />
+
+    <TextView
+        android:textColor="#ffff"
+        android:id="@+id/txtMobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/address"
+        android:layout_alignLeft="@+id/txtaddress"
+        android:layout_alignStart="@+id/txtaddress" />
+
+    <TextView
+        android:textColor="#ffff"
+        android:id="@+id/mathern"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="abc"
+        android:textSize="18sp"
+        android:layout_above="@+id/gender"
+        android:layout_toEndOf="@+id/gen"
+        android:layout_alignLeft="@+id/fathern"
+        android:layout_alignStart="@+id/fathern"
+        android:layout_toRightOf="@+id/gen" />
+
+    <TextView
+        android:textColor="#ffff"
+        android:id="@+id/gen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Male"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/gender"
+        android:layout_alignBottom="@+id/gender"
+        android:layout_alignLeft="@+id/fathern"
+        android:layout_alignStart="@+id/fathern" />
+
+    <TextView
+        android:textColor="#ffff"
+        android:id="@+id/txtdateOfBirth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="1995/3/3"
+        android:textSize="18sp"
+        android:layout_alignTop="@+id/txtLoction"
+        android:layout_toRightOf="@+id/ftname"
+        android:layout_toEndOf="@+id/ftname" />
+
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wpp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:background="@drawable/circle"
+    android:drawableTop="@android:drawable/ic_menu_save"
+    android:paddingTop="25dp"
+    android:text="All projects"
+    android:textSize="11dp"
+    android:textColor="#fff"
+    android:id="@+id/button1"
+    android:layout_marginTop="160dp"
+    android:layout_marginRight="39dp"
+    android:layout_marginEnd="39dp"
+    android:layout_alignParentTop="true"
+    android:layout_toLeftOf="@+id/button3"
+    android:layout_toStartOf="@+id/button3"
+    android:layout_centerHorizontal="true"/>
+
+
+        <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/circle2"
+        android:drawableTop="@android:drawable/ic_menu_save"
+        android:paddingTop="25dp"
+        android:text="Assign Project"
+        android:textSize="11dp"
+        android:textColor="#fff"
+        android:id="@+id/button3"
+        android:layout_marginRight="68dp"
+        android:layout_marginEnd="68dp"
+            android:layout_alignTop="@+id/button1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/circle1"
+            android:drawableTop="@android:drawable/ic_dialog_info"
+            android:paddingTop="25dp"
+            android:text="Add projects"
+            android:textSize="11dp"
+            android:textColor="#fff"
+            android:id="@+id/button2"
+            android:layout_marginTop="59dp"
+            android:layout_below="@+id/button1"
+            android:layout_alignLeft="@+id/button1"
+            android:layout_alignStart="@+id/button1" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/circle3"
+            android:drawableTop="@android:drawable/ic_menu_save"
+            android:paddingTop="25dp"
+            android:text="Member List"
+            android:textSize="11dp"
+            android:textColor="#fff"
+            android:id="@+id/button4"
+            android:layout_alignBottom="@+id/button2"
+            android:layout_toRightOf="@+id/button1"
+            android:layout_toEndOf="@+id/button1"
+            android:layout_alignTop="@+id/button2" />
+
+    </RelativeLayout>
+</FrameLayout>

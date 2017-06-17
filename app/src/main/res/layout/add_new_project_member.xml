@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wpp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:textColor="#ffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/project_id"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="Project Id"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_project_id"
+        android:hint="2"
+        android:textColor="#ffff"
+        android:textSize="25sp"/>
+        <TextView
+            android:textColor="#ffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/member_id"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:text="Member Id"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt_member_id"
+            android:hint="2"
+            android:textColor="#ffff"
+            android:textSize="25sp"/>
+    <TextView
+        android:textColor="#ffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/start_date"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="Start Date"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_satrt_date"
+        android:hint="2017-06-6"
+        android:textColor="#ffff"
+        android:textSize="25sp"/>
+    <TextView
+        android:textColor="#ffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/end_date"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="End Date"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_end_date"
+        android:textColor="#ffff"
+        android:hint="2017-05-2"
+        android:textSize="25sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_descr"
+        android:text="Description"
+        android:textColor="#ffff"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_descc"
+        android:textColor="#ffff"
+        android:hint="Important"
+        android:textSize="25sp"/>
+        <TextView
+            android:textColor="#ffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/status"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:text="Status"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt_status"
+            android:hint="2"
+            android:textColor="#ffff"
+            android:textSize="25sp"/>
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/add_member"
+    android:text="Add"
+    android:textStyle="bold"
+    android:textSize="30sp"/>
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/lv8"></ListView>
+
+    </LinearLayout>
+</ScrollView>
